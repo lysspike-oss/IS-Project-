@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7ecec;
+    color: #3a3a4d;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.page-header {
+    background: #fff7f3;
+    border: 1px solid #e8d8d5;
+    border-radius: 20px;
+    padding: 28px;
+    max-width: 900px;
+    margin: 0 auto 24px;
+    box-shadow: 0 10px 30px rgba(59, 44, 44, 0.08);
+}
+
+.top-nav {
+    margin-bottom: 16px;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.top-nav a {
+    color: #8b5c7e;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
+.jump-link {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 16px;
+    background: #d8b4dd;
+    color: #3a2142;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.main-content {
+    max-width: 900px;
+    margin: 0 auto 24px;
+    padding: 0 10px;
+}
+
+.intro-block,
+.steps-block {
+    background: #ffffff;
+    border: 1px solid #e7d7da;
+    border-radius: 18px;
+    padding: 24px;
+    margin-bottom: 18px;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(2rem, 3vw, 3rem);
+    color: #50394d;
+}
+
+h2 {
+    margin-top: 0;
+    color: #6b3f5a;
+    font-size: 1.3rem;
+}
+
+ol {
+    margin: 0;
+    padding-left: 1.4rem;
+}
+
+ol li {
+    margin-bottom: 12px;
+}
+
+ol li ul {
+    margin-top: 8px;
+    padding-left: 1.2rem;
+    list-style-type: disc;
+}
+
+.media-section {
+    display: grid;
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto 24px;
+    padding: 0 10px;
+}
+
+.image-block,
+.video-block {
+    background: #ffffff;
+    border: 1px solid #e7d7da;
+    border-radius: 18px;
+    padding: 22px;
+}
+
+.image-block img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 16px;
+    display: block;
+    margin: 14px auto 0;
+}
+
+.video-block iframe {
+    width: 100%;
+    min-height: 315px;
+    border-radius: 16px;
+    border: none;
+}
+
+.footer-note {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    color: #5c4d55;
+    padding: 16px 12px;
+}
